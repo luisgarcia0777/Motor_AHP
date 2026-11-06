@@ -1,0 +1,45 @@
+{
+  "metadatos": {
+    "empresa": "AndesSoft Solutions",
+    "proyecto": "Plataforma SaaS para gestión de pedidos y atención de clientes",
+    "tipo_dato": "demostracion",
+    "uso": "Prueba funcional del prototipo; no es evidencia empírica ni resultado de investigación.",
+    "advertencia": "Empresa y datos completamente ficticios. Escenario creado únicamente para probar el motor."
+  },
+  "comparaciones_criterios": {
+    "C1_C2": 4.0,
+    "C1_C3": 2.0,
+    "C1_C4": 1.0,
+    "C2_C3": 0.5,
+    "C2_C4": 0.25,
+    "C3_C4": 0.5
+  },
+  "comparaciones_alternativas": {
+    "C1": {
+      "predictiva_adaptativa": 0.25,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 2.0
+    },
+    "C2": {
+      "predictiva_adaptativa": 0.5,
+      "predictiva_hibrida": 0.25,
+      "adaptativa_hibrida": 0.5
+    },
+    "C3": {
+      "predictiva_adaptativa": 0.5,
+      "predictiva_hibrida": 2.0,
+      "adaptativa_hibrida": 4.0
+    },
+    "C4": {
+      "predictiva_adaptativa": 0.25,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 2.0
+    }
+  },
+  "contexto_proyecto": {
+    "C1": "alto",
+    "C2": "medio",
+    "C3": "medio",
+    "C4": "alto"
+  }
+}

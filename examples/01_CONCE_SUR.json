@@ -1,0 +1,45 @@
+{
+  "metadatos": {
+    "empresa": "CONCE SUR",
+    "proyecto": "Sistema de gestión comercial, inventario y servicio técnico",
+    "tipo_dato": "demostracion",
+    "uso": "Prueba funcional del prototipo; no es evidencia empírica ni resultado de investigación.",
+    "advertencia": "Caso académico simulado, basado en el giro y los servicios descritos para CONCE SUR en un trabajo previo. No representa mediciones ni datos internos reales de la empresa."
+  },
+  "comparaciones_criterios": {
+    "C1_C2": 2.0,
+    "C1_C3": 4.0,
+    "C1_C4": 4.0,
+    "C2_C3": 2.0,
+    "C2_C4": 2.0,
+    "C3_C4": 1.0
+  },
+  "comparaciones_alternativas": {
+    "C1": {
+      "predictiva_adaptativa": 0.25,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 2.0
+    },
+    "C2": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 0.25
+    },
+    "C3": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 4.0,
+      "adaptativa_hibrida": 2.0
+    },
+    "C4": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 4.0,
+      "adaptativa_hibrida": 2.0
+    }
+  },
+  "contexto_proyecto": {
+    "C1": "medio",
+    "C2": "alto",
+    "C3": "alto",
+    "C4": "bajo"
+  }
+}

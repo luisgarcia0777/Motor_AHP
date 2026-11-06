@@ -1,0 +1,45 @@
+{
+  "metadatos": {
+    "empresa": "RutaSur Logística",
+    "proyecto": "Sistema de seguimiento de envíos, despacho y trazabilidad",
+    "tipo_dato": "demostracion",
+    "uso": "Prueba funcional del prototipo; no es evidencia empírica ni resultado de investigación.",
+    "advertencia": "Empresa y datos completamente ficticios. Escenario creado únicamente para probar el motor."
+  },
+  "comparaciones_criterios": {
+    "C1_C2": 0.5,
+    "C1_C3": 0.25,
+    "C1_C4": 0.5,
+    "C2_C3": 0.5,
+    "C2_C4": 1.0,
+    "C3_C4": 2.0
+  },
+  "comparaciones_alternativas": {
+    "C1": {
+      "predictiva_adaptativa": 0.5,
+      "predictiva_hibrida": 0.25,
+      "adaptativa_hibrida": 0.5
+    },
+    "C2": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 0.25
+    },
+    "C3": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 4.0,
+      "adaptativa_hibrida": 2.0
+    },
+    "C4": {
+      "predictiva_adaptativa": 2.0,
+      "predictiva_hibrida": 0.5,
+      "adaptativa_hibrida": 0.25
+    }
+  },
+  "contexto_proyecto": {
+    "C1": "medio",
+    "C2": "alto",
+    "C3": "alto",
+    "C4": "medio"
+  }
+}
